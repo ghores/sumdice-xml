@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SumDice" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SumDice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/grey</item>
     </style>
 
     <style name="Theme.SumDice" parent="Base.Theme.SumDice" />
+
+    <style name="sum">
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="detail">
+        <item name="android:textSize">18dip</item>
+    </style>
+    <style name="title">
+        <item name="android:textSize">40dip</item>
+    </style>
+
 </resources>
